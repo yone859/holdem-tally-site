@@ -1,0 +1,30 @@
+<!doctype html>
+<!-- サイトのトップページ。アプリの名前と、プライバシーポリシーへのリンクだけを置く -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Hold'em Tally</title>
+    <meta name="description" content="Hold'em Tally keeps score for Texas Hold'em tournaments played with real cards." />
+    <style>
+      :root { --bg: #ffffff; --text: #1f2a24; --muted: #5b6b62; --accent: #1f6b43; }
+      @media (prefers-color-scheme: dark) {
+        :root { --bg: #0d1511; --text: #e8efe9; --muted: #93a69a; --accent: #f2c14e; }
+      }
+      body { margin: 0; background: var(--bg); color: var(--text); font: 16px/1.7 system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif; }
+      main { max-width: 720px; margin: 0 auto; padding: 48px 16px; }
+      h1 { font-size: 28px; margin: 0 0 8px; }
+      p { margin: 8px 0; }
+      .muted { color: var(--muted); }
+      a { color: var(--accent); }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Hold'em Tally</h1>
+      <p class="muted">Keep score for Texas Hold'em tournaments played with real cards.</p>
+      <p><a href="privacy.html">Privacy Policy</a></p>
+      <p>Contact: <a href="mailto:yone.apps.dev@gmail.com">yone.apps.dev@gmail.com</a></p>
+    </main>
+  </body>
+</html>
